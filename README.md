@@ -23,4 +23,4 @@ Open the windows 7 iso and extract all the files directly onto the usb.
 
 ## Boot entry examples
 
-View the grub.conf for examples on booting different installs, disks etc.
+View the ```grub.conf``` for examples on booting different installs, disks etc.
