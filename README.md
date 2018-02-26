@@ -1,2 +1,18 @@
-# bootable_usb
-grub2 config file for booting linux and windows installers 
+# Bootable USB
+
+Instructions and a grub2 config file for booting linux installers. live disks and a windows 7 installer.
+
+## Making it bootable
+
+1. Use fdisk to create a single partition and set the bootable flag.
+
+2. Format it: ```mkfs.msdos -nMYINST -F 32 /dev/sda```
+
+3. Mount the partition.
+
+4. Install grub2 onto it```grub-install --no-floppy --root-directory=whereItIsMounted /dev/sda```
+
+## Removing boot section
+
+```dd if=/dev/zero of=/dev/sda bs=512 count=1```
+
