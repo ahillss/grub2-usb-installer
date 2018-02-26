@@ -19,3 +19,8 @@ Instructions and a grub2 config file for booting linux installers. live disks an
 ## Making a Windows 7 installer
 
 Open the windows 7 iso and extract all the files directly onto the usb.
+
+
+## Boot entry examples
+
+View the grub.conf for examples on booting different installs, disks etc.
