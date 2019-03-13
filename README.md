@@ -4,13 +4,13 @@ Instructions and a grub2 config file for booting linux installers. live disks an
 
 ## Making it bootable
 
-1. Use fdisk to create a single partition and set the bootable flag.
+1. Use fdisk to create a single partition (of FAT32) and set the bootable flag.
 
-2. Format it: ```mkfs.msdos -nMYINST -F 32 /dev/sda```
+2. Format it: ```mkfs.msdos -nMYINST -F 32 /dev/sda1``` (replace sda1 with your partition)
 
 3. Mount the partition.
 
-4. Install grub2 onto it: ```grub-install --no-floppy --root-directory=whereItIsMounted /dev/sda```
+4. Install grub2 onto it: ```grub-install --no-floppy --root-directory=whereItIsMounted /dev/sda``` (replace sda1 with your device)
 
 ## Removing boot section
 
