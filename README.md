@@ -10,7 +10,7 @@ Instructions and a grub2 config file for booting linux installers. live disks an
 
 3. Mount the partition.
 
-4. Install grub2 onto it: ```grub-install --no-floppy --root-directory=whereItIsMounted /dev/sda``` (replace sda1 with your device)
+4. Install grub2 onto it: ```grub-install --no-floppy --root-directory=/where/it/is/mounted /dev/sda``` (replace sda with your device)
 
 ## Removing boot section
 
@@ -18,7 +18,7 @@ Instructions and a grub2 config file for booting linux installers. live disks an
 
 ## Making a Windows 7 installer
 
-Open the windows 7 iso and extract all the files directly onto the usb.
+Open the windows 7/10 iso and extract all the files directly onto the usb.
 
 
 ## Boot entry examples
