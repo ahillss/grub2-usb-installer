@@ -16,6 +16,8 @@ Instructions and a grub2 config file for booting linux installers. live disks an
 
 ```dd if=/dev/zero of=/dev/sda bs=512 count=1```
 
+Warning: I think this also deletes the partition table.
+
 ## Making a Windows 7 installer
 
 Open the windows 7/10 iso and extract all the files directly onto the usb.
