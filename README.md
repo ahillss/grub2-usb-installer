@@ -14,9 +14,9 @@ Instructions and a grub2 config file for booting linux installers. live disks an
 
 ## Removing boot section
 
-```dd if=/dev/zero of=/dev/sda bs=512 count=1```
+Warning: This deletes the partition table.
 
-Warning: I think this also deletes the partition table.
+```dd if=/dev/zero of=/dev/sda bs=512 count=1```
 
 ## Making a Windows 7 installer
 
