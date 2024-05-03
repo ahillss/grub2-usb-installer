@@ -35,4 +35,4 @@ Open the windows 7/10 iso and extract all the files directly onto the usb.
 
 ## Boot entry examples
 
-View the [grub.conf](grub.conf) for examples on booting different installs, disks etc.
+View the [grub.cfg](grub.cfg) for examples on booting different installs, disks etc.
