@@ -12,6 +12,16 @@ Instructions and a grub2 config file for booting linux installers. live disks an
 
 4. Install grub2 onto it: ```grub-install --no-floppy --root-directory=/where/it/is/mounted /dev/sda``` (replace sda with your device)
 
+5. Add your grub.cfg to yourusbdriveroot/boot/grub/
+
+## Making it bootable with UEFI
+
+1. follow the original 1-3 steps
+
+2. grub-install --target=x86_64-efi --removable --efi-directory=/where/it/is/mounted --boot-directory=/where/it/is/mounted
+
+3. Add your grub.cfg to yourusbdriveroot/grub/
+
 ## Removing boot section
 
 Warning: This deletes the partition table.
