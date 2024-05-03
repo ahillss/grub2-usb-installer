@@ -16,7 +16,7 @@ Instructions and a grub2 config file for booting linux installers. live disks an
 
 ## Making it bootable with UEFI
 
-1. follow the original 1-3 steps
+1. follow the original 1-3 steps above
 
 2. grub-install --target=x86_64-efi --removable --efi-directory=/where/it/is/mounted --boot-directory=/where/it/is/mounted
 
