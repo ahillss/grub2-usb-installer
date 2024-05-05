@@ -22,6 +22,8 @@ Instructions and a grub2 config file for booting linux installers. live disks an
 
 3. Add your grub.cfg to yourusbdriveroot/grub/
 
+4. TODO, unable to boot images? 
+
 ## Removing boot section
 
 Warning: This deletes the partition table.
